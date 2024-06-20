@@ -1,0 +1,108 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground">
+
+    <ViewFlipper
+        android:id="@+id/reportFlipperT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/smallReportContainerT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/raport_field"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/smallReportPrincipalT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/contrastColorPurple"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/smallReportTitleT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/contrastColorPurple"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/smallReportWarrantyTextT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <!-- drugi layout -->
+
+        <LinearLayout
+            android:id="@+id/bigReportContainerT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/raport_field"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/bigReportPrincipalT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/contrastColorPurple"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bigReportTitleT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/contrastColorPurple"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bigReportWarrantyTextT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/bigReportDescriptionT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/contrastColorBlue"
+                android:textSize="15sp"
+                android:singleLine="false"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/bigReportLocationT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/contrastColorBlue"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/editReportBtn"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="@string/editRaport" />
+        </LinearLayout>
+    </ViewFlipper>
+</LinearLayout>

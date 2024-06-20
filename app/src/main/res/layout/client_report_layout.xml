@@ -1,0 +1,86 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground">
+
+    <ViewFlipper
+        android:id="@+id/reportFlipperC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/smallReportContainerC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/raport_field"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/smallReportTitleC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/contrastColorPurple"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/smallReportWarrantyTextC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <!-- drugi layout -->
+
+        <LinearLayout
+            android:id="@+id/bigReportContainerC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/raport_field"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/bigReportTitleC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/contrastColorPurple"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bigReportWarrantyTextC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/bigReportDescriptionC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/contrastColorBlue"
+                android:textSize="15sp"
+                android:singleLine="false"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/bigReportDoneC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/contrastColorBlue"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ViewFlipper>
+</LinearLayout>

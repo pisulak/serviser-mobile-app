@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PisulaKacperProjekt" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/contrastColorBlue</item>
+    </style>
+
+    <style name="Theme.PisulaKacperProjekt" parent="Base.Theme.PisulaKacperProjekt" />
+</resources>

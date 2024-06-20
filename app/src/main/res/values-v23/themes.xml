@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--  <style name="Theme.PisulaKacperProjekt" parent="Base.Theme.PisulaKacperProjekt">-->
+    <!--    &lt;!&ndash; Transparent system bars for edge-to-edge. &ndash;&gt;-->
+    <!--    <item name="android:navigationBarColor">@android:color/transparent</item>-->
+    <!--    <item name="android:statusBarColor">@android:color/transparent</item>-->
+    <!--    <item name="android:windowLightStatusBar">?attr/isLightTheme</item>-->
+    <!--  </style>-->
+
+    <style name="Theme.PisulaKacperProjekt" parent="Base.Theme.PisulaKacperProjekt">
+        <!-- Transparent system bars for edge-to-edge. -->
+        <item name="android:navigationBarColor">@color/contrastColorLightPurple</item>
+        <item name="android:statusBarColor">@color/contrastColorBlue</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+    </style>
+</resources>
